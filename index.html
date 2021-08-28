@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GeoFormula - all geometric formulas</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id = "head-page">
+		<h1>Select a geometric figure</h1>
+	</div>
+	<div class="image-container">
+		<div class="image">
+			<img class = "imageToSelect current-figure-selected" id ="square" src="images/Quadrato/quadratoTR.png">
+			<p>Square</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="rectangle" src="images/Rettangolo/rettangoloTR.png">
+			<p>Rectangle</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="eqTriangle" src="images/Triangolo/equilatero/triangoloEquilateroTR.png">
+			<p>Equilateral Triangle</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="isTriangle" src="images/Triangolo/isoscele/triangoloIsosceleTR.png">
+			<p>Isosceles Triangle</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="reTriangle" src="images/Triangolo/rettangolo/triangoloRettangoloTR.png">
+			<p>Right Triangle</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="reTrapezoid" src="images/Trapezio/rettangolo/trapezioRettangoloTR.png">
+			<p>Right Trapezoid</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="isTrapezoid" src="images/Trapezio/isoscele/trapezioIsosceleTR.png">
+			<p>Isosceles Trapezoid</p>
+		</div>
+
+		<div class="image">
+			<img class = "imageToSelect" id ="circle" src="images/Cerchio/cerchioTR.png">
+			<p>Circle</p>
+		</div>
+	</div>
+	<hr>
+	<div class="selected-figure">
+		<h2 id = "title-figure">Square</h2>
+		<div class="selected-figure-image">
+			<img id = "current-image" src="images/Quadrato/quadratoGrandeMOD.png">
+		</div>
+
+		<h2>formulas</h2>
+
+		<div class="formulas">
+			<div class="firstFormula">
+				<h3>Area:</h3>
+				<div class="formula-image-container">
+					<img class = "formula-image" src="images/Quadrato/formulaArea.png">
+				</div>
+				<div class="input-field">
+					<input class = "textInput" type="text" placeholder="insert side">
+					<input id = "button1" type="button" type="submit" value="calculate">
+					<p class = "result"></p>
+				</div>
+			</div>
+
+			<div class="secondFormula">
+				<h3 id = "formula-title">Perimeter:</h3>
+				<div class = "formula-image-container">
+					<img class = "formula-image" src="images/Quadrato/formulaPerimetro.png">
+				</div>
+				<div class="input-field">
+					<input class = "textInput" type="text" placeholder="insert side">
+					<input id = "button2" type="button" type="submit" value="calculate">
+					<p class ="result"></p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+		
+	<script src ="javascript/app.js"></script>
+</body>
+</html>
