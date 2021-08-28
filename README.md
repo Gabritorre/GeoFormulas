@@ -1,4 +1,4 @@
-# GroFormulas
+# GeoFormulas
 Website for basic Geometric formulas.
 In this html page you can choose a geometric figure, see the main formulas and try them.
 
