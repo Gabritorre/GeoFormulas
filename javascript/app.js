@@ -159,7 +159,7 @@ function removeCurrentClass() {
 // setta la pagina per il rettangolo
 function setRectangle(){
 	title.innerHTML = "Rectangle";	//titolo
-	image.src = "images/Rettangolo/rettangoloGrandeMOD.png";	//immagine grande
+	image.src = "images/Rettangolo/rettangoloGrandeMOD.svg";	//immagine grande
 	formulaImage[0].src = "images/Rettangolo/formulaArea.png";	//immagine della formula1
 	formulaTitle.innerHTML = "Perimeter";		//titolo della formula 2 (la prima è "Area" per tutte le figure)
 	formulaImage[1].src = "images/Rettangolo/formulaPerimetro.png"	//immagine della formula2
@@ -187,7 +187,7 @@ function setRectangle(){
 // setta la pagina per il quadrato
 function setSquare(){
 	title.innerHTML = "Square";
-	image.src = "images/Quadrato/quadratoGrandeMOD.png";
+	image.src = "images/Quadrato/quadratoGrandeMOD.svg";
 	formulaImage[0].src = "images/Quadrato/formulaArea.png";
 	formulaTitle.innerHTML = "Perimeter";
 	formulaImage[1].src = "images/Quadrato/formulaPerimetro.png";
@@ -200,7 +200,7 @@ function setSquare(){
 // setta la pagina per il cerchio
 function setCircle(){
 	title.innerHTML = "Circle";
-	image.src = "images/Cerchio/cerchioGrandeMOD.png";
+	image.src = "images/Cerchio/cerchioGrandeMOD.svg";
 	formulaImage[0].src = "images/Cerchio/formulaArea.png";
 	formulaTitle.innerHTML = "Circumference:";
 	formulaImage[1].src = "images/Cerchio/formulaCirconferenza.png";
@@ -212,7 +212,7 @@ function setCircle(){
 // setta la pagina per il triangolo equilatero
 function setEqTriangle(){
 	title.innerHTML = "Equilateral Triangle";
-	image.src = "images/Triangolo/equilatero/triangoloEquilateroGrandeMOD.png";
+	image.src = "images/Triangolo/equilatero/triangoloEquilateroGrandeMOD.svg";
 	formulaImage[0].src = "images/Triangolo/formulaArea.png";
 	formulaTitle.innerHTML = "Perimeter";
 	formulaImage[1].src = "images/Triangolo/equilatero/formulaPerimetro.png";
@@ -231,7 +231,7 @@ function setEqTriangle(){
 // setta la pagina per il triangolo isoscele
 function setIsTriangle(){
 	title.innerHTML = "Isosceles Triangle";
-	image.src = "images/Triangolo/isoscele/triangoloIsosceleGrandeMOD.png";
+	image.src = "images/Triangolo/isoscele/triangoloIsosceleGrandeMOD.svg";
 	formulaImage[0].src = "images/Triangolo/formulaArea.png";
 	formulaTitle.innerHTML = "Perimeter";
 	formulaImage[1].src = "images/Triangolo/isoscele/formulaPerimetro.png";
@@ -256,8 +256,8 @@ function setIsTriangle(){
 
 // setta la pagina per il triangolo rettangolo
 function setReTriangle(){
-	title.innerHTML = "Right Trinagle";
-	image.src = "images/Triangolo/rettangolo/triangoloRettangoloGrandeMOD.png";
+	title.innerHTML = "Right Triangle";
+	image.src = "images/Triangolo/rettangolo/triangoloRettangoloGrandeMOD.svg";
 	formulaImage[0].src = "images/Triangolo/formulaArea.png";
 	formulaTitle.innerHTML = "Pitagora:";
 	formulaImage[1].src = "images/Triangolo/rettangolo/formulaPitagora.png";
@@ -283,7 +283,7 @@ function setReTriangle(){
 // setta la pagina per il trapezio rettangolo
 function setReTrapezoid(){
 	title.innerHTML = "Right Trapezoid";
-	image.src = "images/Trapezio/rettangolo/trapezioRettangoloGrandeMOD.png";
+	image.src = "images/Trapezio/rettangolo/trapezioRettangoloGrandeMOD.svg";
 	formulaImage[0].src = "images/Trapezio/formulaArea.png";
 	formulaTitle.innerHTML = "Perimeter";
 	formulaImage[1].src = "images/Trapezio/rettangolo/formulaPerimetro.png";
@@ -329,7 +329,7 @@ function setReTrapezoid(){
 // setta la pagina per il trapezio isoscele
 function setIsTrapezoid(){
 	title.innerHTML = "Isosceles Trapezoid";
-	image.src = "images/Trapezio/isoscele/trapezioIsosceleGrandeMOD.png";
+	image.src = "images/Trapezio/isoscele/trapezioIsosceleGrandeMOD.svg";
 	formulaImage[0].src = "images/Trapezio/formulaArea.png";
 	formulaTitle.innerHTML = "Perimeter";
 	formulaImage[1].src = "images/Trapezio/isoscele/formulaPerimetro.png";
